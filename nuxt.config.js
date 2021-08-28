@@ -19,9 +19,9 @@ export default {
   },
 
   publicRuntimeConfig: {
+    apiKey: process.env.API_KEY
   },
   privateRuntimeConfig: {
-    apiKey: process.env.API_KEY
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
